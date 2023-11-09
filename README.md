@@ -24,7 +24,7 @@
 2. Вместо этого можно добавить следующие настройки почты с использованием SMTP (как наиболее распространенный способ настройки почты):
    ```
    # settings.py
-   EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_HOST = 'smtp.gmail.com' # заменить на ваш SMTP-сервер
     EMAIL_USE_TLS = True
     EMAIL_PORT = 587
